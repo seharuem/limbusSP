@@ -1,0 +1,178 @@
+body {
+	margin: 0;
+	padding: 20px;
+	background-color: #222;
+	font-family: 'Pretendard Variable', Pretendard, -apple-system,
+		BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
+		'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+summary {
+	list-style: none;
+	background: center no-repeat;
+}
+
+.cat00:not(:first-child) {
+	margin-top: 20px;
+}
+.cat00 > summary {
+	height: 100px;
+	border: 3px solid white;
+	border-radius: 20px;
+	background-color: #333;
+}
+#cat0 > summary {
+	background-image: url(img/cat0.png);
+}
+#cat1 > summary {
+	background-image: url(img/cat1.png);
+}
+#cat2 > summary {
+	background-image: url(img/cat2.png);
+}
+#cat3 > summary {
+	background-image: url(img/cat3.png);
+}
+
+.cat00 > div {
+	margin-top: 8px;
+	background-color: #222;
+	border: 3px solid;
+	border-radius: 20px;
+}
+.cat00 > div:first-of-type {
+	margin-top: 20px;
+}
+
+.cat00 > div > details > div {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.cat00 > div > details > div > div {
+	display: flex;
+	gap: 20px;
+	padding: 20px;
+	flex: 1;
+	min-width: min(80%, 400px);
+	max-width: 600px;
+	height: max-content;
+	color: white;
+	background: #222;
+	border-radius: 20px;
+	border: 3px solid;
+}
+
+.cat00 > div > details > div > div > div:nth-child(1) {
+	height: 160px;
+	aspect-ratio: 3 / 4;
+	border-radius: 8px;
+	border: 3px solid;
+}
+.cat00 > div > details > div > div > div:nth-child(2) {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+#cat0 > #cat001 {
+	border-color: #d4e1e8;
+}
+#cat0 > #cat002 {
+	border-color: #ffb1b4;
+}
+#cat0 > #cat003 {
+	border-color: #ffef23;
+}
+#cat0 > #cat004 {
+	border-color: #cf0000;
+}
+#cat0 > #cat005 {
+	border-color: #293b95;
+}
+#cat0 > #cat006 {
+	border-color: #5bffde;
+}
+#cat0 > #cat007 {
+	border-color: #4e3076;
+}
+#cat0 > #cat008 {
+	border-color: #ff9500;
+}
+#cat0 > #cat009 {
+	border-color: #820000;
+}
+#cat0 > #cat011 {
+	border-color: #8b9c15;
+}
+#cat0 > #cat012 {
+	border-color: #325339;
+}
+#cat0 > #cat013 {
+	border-color: #69350b;
+}
+
+#cat1 > #cat101 {
+	border-color: #bc2c20;
+}
+#cat1 > #cat102 {
+	border-color: #d46a37;
+}
+#cat1 > #cat103 {
+	border-color: #c5953d;
+}
+#cat1 > #cat104 {
+	border-color: #7fab3a;
+}
+#cat1 > #cat105 {
+	border-color: #3e819c;
+}
+#cat1 > #cat106 {
+	border-color: #2a5184;
+}
+#cat1 > #cat107 {
+	border-color: #550c82;
+}
+
+#cat2 > #cat201,
+.cat00 > div > details > div > .fir {
+	border-color: #f74926;
+}
+#cat2 > #cat202,
+.cat00 > div > details > div > .blo {
+	border-color: #fb4c78;
+}
+#cat2 > #cat203,
+.cat00 > div > details > div > .vib {
+	border-color: #fac51c;
+}
+#cat2 > #cat204,
+.cat00 > div > details > div > .rup {
+	border-color: #6adcb9;
+}
+#cat2 > #cat205,
+.cat00 > div > details > div > .sin {
+	border-color: #3b79dc;
+}
+#cat2 > #cat206,
+.cat00 > div > details > div > .bre {
+	border-color: #b4d5d8;
+}
+#cat2 > #cat207,
+.cat00 > div > details > div > .cha {
+	border-color: #35d5f4;
+}
+#cat2 > :is(#cat208, #cat209, #cat210),
+.cat00 > div > details > div > .att {
+	border-color: #eee;
+}
+
+#cat3 > :is(#cat301, #cat302, #cat303, #cat304, #cat305),
+.cat00 > div > details > div > .etc {
+	border-color: #444;
+}

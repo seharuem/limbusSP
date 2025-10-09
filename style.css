@@ -45,6 +45,10 @@ summary {
 	margin-top: 20px;
 }
 
+.cat00 > div > details > summary {
+	height: 80px;
+}
+
 .cat00 > div > details > div {
 	display: flex;
 	gap: 20px;
@@ -73,11 +77,67 @@ summary {
 	border-radius: 8px;
 	border: 3px solid;
 }
+.cat00 > div > details > div > div > div.imgB1 {
+	border-color: #aaa;
+}
+.cat00 > div > details > div > div > div.imgB2 {
+	border-color: #972213;
+}
+.cat00 > div > details > div > div > div.imgB3 {
+	border-color: #ffcc00;
+}
+
 .cat00 > div > details > div > div > div:nth-child(2) {
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
+}
+
+.name {
+	font-size: 18px;
+	font-weight: 700;
+}
+.title {
+	text-align: center;
+	border-radius: 20px;
+}
+.text {
+	flex: 1;
+	width: 100%;
+}
+
+.res0,
+.res1,
+.res2,
+.res3,
+.res4,
+.res5,
+.res6 {
+	width: 20px;
+	aspect-ratio: 1;
+	background: center / contain no-repeat;
+}
+.res0 {
+	background-image: url(img/res0.webp);
+}
+.res1 {
+	background-image: url(img/res1.webp);
+}
+.res2 {
+	background-image: url(img/res2.webp);
+}
+.res3 {
+	background-image: url(img/res3.webp);
+}
+.res4 {
+	background-image: url(img/res4.webp);
+}
+.res5 {
+	background-image: url(img/res5.webp);
+}
+.res6 {
+	background-image: url(img/res6.webp);
 }
 
 #cat0 > #cat001 {

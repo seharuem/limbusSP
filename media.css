@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+	.cat00 > div > details > div > div {
+		flex-direction: column;
+	}
+  .cat00 > div > details > div > div > div:nth-child(1) {
+    align-self: center;
+  }
+}

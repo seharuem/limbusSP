@@ -8,6 +8,25 @@ body {
 		'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
+h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: #eee;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1 > span {
+	color: #c5953d;
+}
+
+h1,
+summary {
+	font-family: 'KOTRA_BOLD';
+	text-align: center;
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
 summary {
 	list-style: none;
 	background: center no-repeat;
@@ -21,18 +40,22 @@ summary {
 	border: 3px solid white;
 	border-radius: 20px;
 	background-color: #333;
+	font-size: 2.5rem;
+	color: white;
+	text-align: center;
+	line-height: 100px;
 }
 #cat0 > summary {
-	background-image: url(img/cat0.png);
+	color: #ffcc00;
 }
 #cat1 > summary {
-	background-image: url(img/cat1.png);
+	color: #bc2c20;
 }
 #cat2 > summary {
-	background-image: url(img/cat2.png);
+	color: #6adcb9;
 }
 #cat3 > summary {
-	background-image: url(img/cat3.png);
+	color: #3b79dc;
 }
 
 .cat00 > div {
@@ -47,6 +70,8 @@ summary {
 
 .cat00 > div > details > summary {
 	height: 80px;
+	line-height: 80px;
+	font-size: 40px;
 }
 
 .cat00 > div > details > div {
@@ -235,4 +260,62 @@ summary {
 #cat3 > :is(#cat301, #cat302, #cat303, #cat304, #cat305),
 .cat00 > div > details > div > .etc {
 	border-color: #444;
+}
+
+#cat1 details > summary {
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+}
+#cat101 details > summary {
+	color: #BC2C20;
+}
+#cat102 details > summary {
+	color: #D46A37;
+}
+#cat103 details > summary {
+	color: #C5953D;
+}
+#cat104 details > summary {
+	color: #7FAB3A;
+}
+#cat105 details > summary {
+	color: #3E819C;
+}
+#cat106 details > summary {
+	color: #2A5184;
+}
+#cat107 details > summary {
+	color: #550C82;
+}
+#cat1 details > summary::before, #cat1 details > summary::after {
+	content: '';
+	width: 40px;
+	aspect-ratio: 1;
+	background: center / contain no-repeat;
+}
+#cat101 details > summary::before, #cat101 details > summary::after {
+	background-image: url(img/res0.webp);
+}
+#cat102 details > summary::before, #cat102 details > summary::after {
+	background-image: url(img/res1.webp);
+}
+#cat103 details > summary::before, #cat103 details > summary::after {
+	background-image: url(img/res2.webp);
+}
+#cat104 details > summary::before, #cat104 details > summary::after {
+	background-image: url(img/res3.webp);
+}
+#cat105 details > summary::before, #cat105 details > summary::after {
+	background-image: url(img/res4.webp);
+}
+#cat106 details > summary::before, #cat106 details > summary::after {
+	background-image: url(img/res5.webp);
+}
+#cat107 details > summary::before, #cat107 details > summary::after {
+	background-image: url(img/res6.webp);
+}
+
+#cat3 details > summary {
+	color: #999;
 }

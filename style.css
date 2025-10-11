@@ -262,60 +262,242 @@ summary {
 	border-color: #444;
 }
 
-#cat1 details > summary {
+:is(#cat0, #cat1, #cat2, #cat3) details > summary {
 	display: flex;
 	justify-content: center;
 	gap: 12px;
 }
+#cat001 details > summary {
+	color: #d4e1e8;
+}
+#cat002 details > summary {
+	color: #ffb1b4;
+}
+#cat003 details > summary {
+	color: #ffef23;
+}
+#cat004 details > summary {
+	color: #cf0000;
+}
+#cat005 details > summary {
+	color: #293b95;
+}
+#cat006 details > summary {
+	color: #5bffde;
+}
+#cat007 details > summary {
+	color: #4e3076;
+}
+#cat008 details > summary {
+	color: #ff9500;
+}
+#cat009 details > summary {
+	color: #820000;
+}
+#cat011 details > summary {
+	color: #8b9c15;
+}
+#cat012 details > summary {
+	color: #325339;
+}
+#cat013 details > summary {
+	color: #69350b;
+}
+
 #cat101 details > summary {
-	color: #BC2C20;
+	color: #bc2c20;
 }
 #cat102 details > summary {
-	color: #D46A37;
+	color: #d46a37;
 }
 #cat103 details > summary {
-	color: #C5953D;
+	color: #c5953d;
 }
 #cat104 details > summary {
-	color: #7FAB3A;
+	color: #7fab3a;
 }
 #cat105 details > summary {
-	color: #3E819C;
+	color: #3e819c;
 }
 #cat106 details > summary {
-	color: #2A5184;
+	color: #2a5184;
 }
 #cat107 details > summary {
-	color: #550C82;
+	color: #550c82;
 }
-#cat1 details > summary::before, #cat1 details > summary::after {
+
+#cat201 details > summary {
+	color: #f74926;
+}
+#cat202 details > summary {
+	color: #fb4c78;
+}
+#cat203 details > summary {
+	color: #fac51c;
+}
+#cat204 details > summary {
+	color: #6adcb9;
+}
+#cat205 details > summary {
+	color: #3b79dc;
+}
+#cat206 details > summary {
+	color: #b4d5d8;
+}
+#cat207 details > summary {
+	color: #35d5f4;
+}
+:is(#cat208, #cat209, #cat210) details > summary {
+	color: #eee;
+}
+
+#cat3 details > summary {
+	color: #999;
+}
+
+:is(#cat0, #cat1, #cat2, #cat3) details > summary::before,
+:is(#cat0, #cat1, #cat2, #cat3) details > summary::after {
 	content: '';
 	width: 40px;
 	aspect-ratio: 1;
 	background: center / contain no-repeat;
 }
-#cat101 details > summary::before, #cat101 details > summary::after {
+#cat001 details > summary::before,
+#cat001 details > summary::after {
+	background-image: url(img/001/logo.webp);
+}
+#cat002 details > summary::before,
+#cat002 details > summary::after {
+	background-image: url(img/002/logo.webp);
+}
+#cat003 details > summary::before,
+#cat003 details > summary::after {
+	background-image: url(img/003/logo.webp);
+}
+#cat004 details > summary::before,
+#cat004 details > summary::after {
+	background-image: url(img/004/logo.webp);
+}
+#cat005 details > summary::before,
+#cat005 details > summary::after {
+	background-image: url(img/005/logo.webp);
+}
+#cat006 details > summary::before,
+#cat006 details > summary::after {
+	background-image: url(img/006/logo.webp);
+}
+#cat007 details > summary::before,
+#cat007 details > summary::after {
+	background-image: url(img/007/logo.webp);
+}
+#cat008 details > summary::before,
+#cat008 details > summary::after {
+	background-image: url(img/008/logo.webp);
+}
+#cat009 details > summary::before,
+#cat009 details > summary::after {
+	background-image: url(img/009/logo.webp);
+}
+#cat011 details > summary::before,
+#cat011 details > summary::after {
+	background-image: url(img/011/logo.webp);
+}
+#cat012 details > summary::before,
+#cat012 details > summary::after {
+	background-image: url(img/012/logo.webp);
+}
+#cat013 details > summary::before,
+#cat013 details > summary::after {
+	background-image: url(img/013/logo.webp);
+}
+
+#cat101 details > summary::before,
+#cat101 details > summary::after {
 	background-image: url(img/res0.webp);
 }
-#cat102 details > summary::before, #cat102 details > summary::after {
+#cat102 details > summary::before,
+#cat102 details > summary::after {
 	background-image: url(img/res1.webp);
 }
-#cat103 details > summary::before, #cat103 details > summary::after {
+#cat103 details > summary::before,
+#cat103 details > summary::after {
 	background-image: url(img/res2.webp);
 }
-#cat104 details > summary::before, #cat104 details > summary::after {
+#cat104 details > summary::before,
+#cat104 details > summary::after {
 	background-image: url(img/res3.webp);
 }
-#cat105 details > summary::before, #cat105 details > summary::after {
+#cat105 details > summary::before,
+#cat105 details > summary::after {
 	background-image: url(img/res4.webp);
 }
-#cat106 details > summary::before, #cat106 details > summary::after {
+#cat106 details > summary::before,
+#cat106 details > summary::after {
 	background-image: url(img/res5.webp);
 }
-#cat107 details > summary::before, #cat107 details > summary::after {
+#cat107 details > summary::before,
+#cat107 details > summary::after {
 	background-image: url(img/res6.webp);
 }
 
-#cat3 details > summary {
-	color: #999;
+#cat201 details > summary::before,
+#cat201 details > summary::after {
+	background-image: url(img/key0.svg);
+}
+#cat202 details > summary::before,
+#cat202 details > summary::after {
+	background-image: url(img/key1.svg);
+}
+#cat203 details > summary::before,
+#cat203 details > summary::after {
+	background-image: url(img/key2.svg);
+}
+#cat204 details > summary::before,
+#cat204 details > summary::after {
+	background-image: url(img/key3.svg);
+}
+#cat205 details > summary::before,
+#cat205 details > summary::after {
+	background-image: url(img/key4.svg);
+}
+#cat206 details > summary::before,
+#cat206 details > summary::after {
+	background-image: url(img/key5.svg);
+}
+#cat207 details > summary::before,
+#cat207 details > summary::after {
+	background-image: url(img/key6.svg);
+}
+#cat208 details > summary::before,
+#cat208 details > summary::after {
+	background-image: url(img/key7.svg);
+}
+#cat209 details > summary::before,
+#cat209 details > summary::after {
+	background-image: url(img/key8.svg);
+}
+#cat210 details > summary::before,
+#cat210 details > summary::after {
+	background-image: url(img/key9.svg);
+}
+
+#cat301 details > summary::before,
+#cat301 details > summary::after {
+	background-image: url(img/key10.svg);
+}
+#cat302 details > summary::before,
+#cat302 details > summary::after {
+	background-image: url(img/key11.svg);
+}
+#cat303 details > summary::before,
+#cat303 details > summary::after {
+	background-image: url(img/key12.webp);
+}
+#cat304 details > summary::before,
+#cat304 details > summary::after {
+	background-image: url(img/key13.svg);
+}
+#cat305 details > summary::before,
+#cat305 details > summary::after {
+	background-image: url(img/key14.svg);
 }

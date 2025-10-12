@@ -1,7 +1,9 @@
 body {
 	margin: 0;
+	min-height: 100vh;
 	padding: 20px;
-	background-color: #222;
+	box-sizing: border-box;
+	background: #111;
 	font-family: 'Pretendard Variable', Pretendard, -apple-system,
 		BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
 		'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
@@ -17,7 +19,7 @@ h1 {
 	align-items: center;
 }
 h1 > span {
-	color: #c5953d;
+	color: rgb(241, 191, 2);
 }
 
 h1,
@@ -37,9 +39,9 @@ summary {
 }
 .cat00 > summary {
 	height: 100px;
-	border: 3px solid white;
+	border: 3px solid rgba(255, 255, 255, 0.2);
 	border-radius: 20px;
-	background-color: #333;
+	background-color: rgba(0, 0, 0, 0.3);
 	font-size: 2.5rem;
 	color: white;
 	text-align: center;
@@ -59,10 +61,9 @@ summary {
 }
 
 .cat00 > div {
-	margin-top: 8px;
-	background-color: #222;
-	border: 3px solid;
+	margin-top: 12px;
 	border-radius: 20px;
+	border: 3px solid rgba(255, 255, 255, 0.1);
 }
 .cat00 > div:first-of-type {
 	margin-top: 20px;
@@ -93,7 +94,6 @@ summary {
 	color: white;
 	background: #222;
 	border-radius: 20px;
-	border: 3px solid;
 }
 
 .cat00 > div > details > div > div > div:nth-child(1) {
@@ -165,101 +165,33 @@ summary {
 	background-image: url(img/res6.webp);
 }
 
-#cat0 > #cat001 {
-	border-color: #d4e1e8;
-}
-#cat0 > #cat002 {
-	border-color: #ffb1b4;
-}
-#cat0 > #cat003 {
-	border-color: #ffef23;
-}
-#cat0 > #cat004 {
-	border-color: #cf0000;
-}
-#cat0 > #cat005 {
-	border-color: #293b95;
-}
-#cat0 > #cat006 {
-	border-color: #5bffde;
-}
-#cat0 > #cat007 {
-	border-color: #4e3076;
-}
-#cat0 > #cat008 {
-	border-color: #ff9500;
-}
-#cat0 > #cat009 {
-	border-color: #820000;
-}
-#cat0 > #cat011 {
-	border-color: #8b9c15;
-}
-#cat0 > #cat012 {
-	border-color: #325339;
-}
-#cat0 > #cat013 {
-	border-color: #69350b;
-}
-
-#cat1 > #cat101 {
-	border-color: #bc2c20;
-}
-#cat1 > #cat102 {
-	border-color: #d46a37;
-}
-#cat1 > #cat103 {
-	border-color: #c5953d;
-}
-#cat1 > #cat104 {
-	border-color: #7fab3a;
-}
-#cat1 > #cat105 {
-	border-color: #3e819c;
-}
-#cat1 > #cat106 {
-	border-color: #2a5184;
-}
-#cat1 > #cat107 {
-	border-color: #550c82;
-}
-
-#cat2 > #cat201,
 .cat00 > div > details > div > .fir {
-	border-color: #f74926;
+	box-shadow: #f74926 0 0 5px;
 }
-#cat2 > #cat202,
 .cat00 > div > details > div > .blo {
-	border-color: #fb4c78;
+	box-shadow: #fb4c78 0 0 5px;
 }
-#cat2 > #cat203,
 .cat00 > div > details > div > .vib {
-	border-color: #fac51c;
+	box-shadow: #fac51c 0 0 5px;
 }
-#cat2 > #cat204,
 .cat00 > div > details > div > .rup {
-	border-color: #6adcb9;
+	box-shadow: #6adcb9 0 0 5px;
 }
-#cat2 > #cat205,
 .cat00 > div > details > div > .sin {
-	border-color: #3b79dc;
+	box-shadow: #3b79dc 0 0 5px;
 }
-#cat2 > #cat206,
 .cat00 > div > details > div > .bre {
-	border-color: #b4d5d8;
+	box-shadow: #b4d5d8 0 0 5px;
 }
-#cat2 > #cat207,
 .cat00 > div > details > div > .cha {
-	border-color: #35d5f4;
+	box-shadow: #35d5f4 0 0 5px;
 }
-#cat2 > :is(#cat208, #cat209, #cat210),
 .cat00 > div > details > div > .att {
-	border-color: #eee;
+	box-shadow: #eee 0 0 5px;
 }
 
-#cat3 > :is(#cat301, #cat302, #cat303, #cat304, #cat305),
 .cat00 > div > details > div > .etc {
-	border-color: #444;
+	box-shadow: #999 0 0 2px;
 }
 
 :is(#cat0, #cat1, #cat2, #cat3) details > summary {

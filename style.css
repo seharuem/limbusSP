@@ -374,52 +374,52 @@ summary {
 
 #cat201 details > summary::before,
 #cat201 details > summary::after {
-	background-image: url(img/key0.svg);
+	background-image: url(img/key0.webp);
 }
 #cat202 details > summary::before,
 #cat202 details > summary::after {
-	background-image: url(img/key1.svg);
+	background-image: url(img/key1.webp);
 }
 #cat203 details > summary::before,
 #cat203 details > summary::after {
-	background-image: url(img/key2.svg);
+	background-image: url(img/key2.webp);
 }
 #cat204 details > summary::before,
 #cat204 details > summary::after {
-	background-image: url(img/key3.svg);
+	background-image: url(img/key3.webp);
 }
 #cat205 details > summary::before,
 #cat205 details > summary::after {
-	background-image: url(img/key4.svg);
+	background-image: url(img/key4.webp);
 }
 #cat206 details > summary::before,
 #cat206 details > summary::after {
-	background-image: url(img/key5.svg);
+	background-image: url(img/key5.webp);
 }
 #cat207 details > summary::before,
 #cat207 details > summary::after {
-	background-image: url(img/key6.svg);
+	background-image: url(img/key6.webp);
 }
 #cat208 details > summary::before,
 #cat208 details > summary::after {
-	background-image: url(img/key7.svg);
+	background-image: url(img/key7.webp);
 }
 #cat209 details > summary::before,
 #cat209 details > summary::after {
-	background-image: url(img/key8.svg);
+	background-image: url(img/key8.webp);
 }
 #cat210 details > summary::before,
 #cat210 details > summary::after {
-	background-image: url(img/key9.svg);
+	background-image: url(img/key9.webp);
 }
 
 #cat301 details > summary::before,
 #cat301 details > summary::after {
-	background-image: url(img/key10.svg);
+	background-image: url(img/key10.webp);
 }
 #cat302 details > summary::before,
 #cat302 details > summary::after {
-	background-image: url(img/key11.svg);
+	background-image: url(img/key11.webp);
 }
 #cat303 details > summary::before,
 #cat303 details > summary::after {
@@ -427,9 +427,9 @@ summary {
 }
 #cat304 details > summary::before,
 #cat304 details > summary::after {
-	background-image: url(img/key13.svg);
+	background-image: url(img/key13.webp);
 }
 #cat305 details > summary::before,
 #cat305 details > summary::after {
-	background-image: url(img/key14.svg);
+	background-image: url(img/key14.webp);
 }

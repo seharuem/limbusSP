@@ -132,6 +132,35 @@ summary {
 	width: 100%;
 }
 
+.t01 {
+	background-color: #bc2c20;
+}
+.t02 {
+	background-color: #d46a37;
+}
+.t03 {
+	background-color: #c5953d;
+}
+.t04 {
+	background-color: #7fab3a;
+}
+.t05 {
+	background-color: #3e819c;
+}
+.t06 {
+	background-color: #2a5184;
+}
+.t07 {
+	background-color: #550c82;
+}
+
+.t0207 {
+	background-image: linear-gradient(to right, #d46a37, #550c82);
+}
+.t0104 {
+	background-image: linear-gradient(to right, #bc2c20, #7fab3a);
+}
+
 .res0,
 .res1,
 .res2,

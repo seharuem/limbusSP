@@ -266,25 +266,25 @@ summary {
 	color: #550c82;
 }
 
-#cat201 details > summary {
+#cat201 details > summary, .k01 {
 	color: #f74926;
 }
-#cat202 details > summary {
+#cat202 details > summary, .k02 {
 	color: #fb4c78;
 }
-#cat203 details > summary {
+#cat203 details > summary, .k03 {
 	color: #fac51c;
 }
-#cat204 details > summary {
+#cat204 details > summary, .k04 {
 	color: #6adcb9;
 }
-#cat205 details > summary {
+#cat205 details > summary, .k05 {
 	color: #3b79dc;
 }
-#cat206 details > summary {
+#cat206 details > summary, .k06 {
 	color: #b4d5d8;
 }
-#cat207 details > summary {
+#cat207 details > summary, .k07 {
 	color: #35d5f4;
 }
 :is(#cat208, #cat209, #cat210) details > summary {

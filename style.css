@@ -143,27 +143,6 @@ summary {
 	aspect-ratio: 1;
 	background: center / contain no-repeat;
 }
-.res0 {
-	background-image: url(img/res0.webp);
-}
-.res1 {
-	background-image: url(img/res1.webp);
-}
-.res2 {
-	background-image: url(img/res2.webp);
-}
-.res3 {
-	background-image: url(img/res3.webp);
-}
-.res4 {
-	background-image: url(img/res4.webp);
-}
-.res5 {
-	background-image: url(img/res5.webp);
-}
-.res6 {
-	background-image: url(img/res6.webp);
-}
 
 .cat00 > div > details > div > .fir {
 	box-shadow: #f74926 0 0 5px;
@@ -343,30 +322,37 @@ summary {
 	background-image: url(img/013/logo.webp);
 }
 
+.res0,
 #cat101 details > summary::before,
 #cat101 details > summary::after {
 	background-image: url(img/res0.webp);
 }
+.res1,
 #cat102 details > summary::before,
 #cat102 details > summary::after {
 	background-image: url(img/res1.webp);
 }
+.res2,
 #cat103 details > summary::before,
 #cat103 details > summary::after {
 	background-image: url(img/res2.webp);
 }
+.res3,
 #cat104 details > summary::before,
 #cat104 details > summary::after {
 	background-image: url(img/res3.webp);
 }
+.res4,
 #cat105 details > summary::before,
 #cat105 details > summary::after {
 	background-image: url(img/res4.webp);
 }
+.res5,
 #cat106 details > summary::before,
 #cat106 details > summary::after {
 	background-image: url(img/res5.webp);
 }
+.res6,
 #cat107 details > summary::before,
 #cat107 details > summary::after {
 	background-image: url(img/res6.webp);
@@ -432,4 +418,8 @@ summary {
 #cat305 details > summary::before,
 #cat305 details > summary::after {
 	background-image: url(img/key14.webp);
+}
+#cat306 details > summary::before,
+#cat306 details > summary::after {
+	background-image: url(img/key15.webp);
 }
